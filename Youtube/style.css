@@ -110,3 +110,41 @@ body{
     width: 3%;
     box-shadow: -10px 0px 10px rgb(18, 18, 18);;
 }
+
+#main{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    /* grid-template-rows: 25% 25%; */
+    width: 83%;
+    height: 85vh;
+    position: fixed;
+    right: -22px;
+    bottom: -16px;
+    font-size: 90%;
+    padding-top: 5%;
+}
+.thumb{
+    width: 21%;
+    display: grid;
+    grid-template-columns: 404%;
+    grid-template-rows: 60% 20% 6% 6%;
+}
+
+.vtitle{
+    display: grid;
+    grid-template-columns: 18% 85%;
+}
+
+.cname{
+    display: grid;
+    grid-template-columns: 52% 50%;
+    grid-template-rows: 94%;
+    padding-left: 18%;
+}
+
+.views{
+    display: grid;
+    grid-template-columns: 31% 4% 36%;
+    grid-template-rows: 94%;
+    padding-left: 18%;
+}
