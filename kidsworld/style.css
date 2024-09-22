@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+#navbar{
+    display: grid;
+    grid-template-columns: 85% 2% auto;
+    grid-template-rows: 170%;
+    height: 5%;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+
+#logo{
+    height: 100%;
+}
+
+#carttext{
+    font-weight: 900;
+}
+
+#main{
+    background-image: url(img/kw-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 64%;
+}
+
+.ssize{
+    font-size: 400%;
+    font-weight:530;
+}
+
+.dsize{
+    font-size: 150%;
+    font-weight: 700;
+}
+
+#align{
+    padding-top: 5%;
+    padding-left: 5%;
+    color: white;
+}
+
+#books{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    justify-content: center;
+    column-gap: 5%;
+}
+
+.box1{
+    width: 5%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 9% 5% 16%;
+}
+
+.booksize{
+    width: 150px;
+}
+
+.blue{
+    background-color: rgb(91, 146, 255);
+    display: grid;
+    grid-template-columns: auto auto;
+    color: white;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10%;
+    padding: 2px;
+    width: 60px;
+    justify-self: end;
+}
+
+.lastline{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.wcart{
+    width:20px;
+}
+
+.bookname,.price{
+    font-weight: 900;
+}
+
+.authorname{
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(136, 136, 135);
+}
+
+#discover{
+    font-weight: 900;
+    font-size: 120%;
+    padding-left: 4.7%;
+    padding-top: 12%;
+}
+
+#games{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: center;
+    column-gap: 5.9%;
+}
+
+.box2{
+    width: 10%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 9% 5% 16%;
+}
+
+.gamesize{
+    width: 250px;
+}

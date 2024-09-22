@@ -1,0 +1,112 @@
+*{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0%;
+}
+body{
+    background-color: rgb(24, 24, 24);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+#sidebar{
+    background-color: rgb(33, 33, 33);
+    width:17%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 23% 33%;
+    justify-content: center;
+    position: fixed;
+}
+#logobar{
+    display: grid;
+    grid-template-columns: 15% 40%;
+    column-gap: 20%;
+    position: fixed;
+    left: 2%;
+    top: 1.5%;
+}
+.opt1{
+    display: grid;
+    grid-template-columns: 12% 24%;
+    column-gap: 10%;
+    padding-left: 10%;
+    align-items:center;
+    padding-top: 2%;
+}
+.opt2{
+    display: grid;
+    grid-template-columns: 12% 74%;
+    column-gap: 10%;
+    padding-left: 10%;
+    align-items:center;
+    padding-top: 2%;
+}
+#btmbdr{
+    border: 1px solid rgb(52, 52, 52);
+    margin-top: 3%;
+}
+#navbar{
+    display: flex;
+    width: 83%;
+    height: 5%;
+    justify-content: flex-end;
+    position: fixed;
+    top: 1.5%;
+    right: 0px;
+}
+#nav1{
+    display: flex;
+    width: 55%;
+    padding-right: 14%;
+}
+#nav2{
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aa{
+    height: 20px;
+}
+
+#navbar2{
+    display: grid;
+    grid-template-columns:100% 3%;
+    width: 83%;
+    height: 6%;
+    position: fixed;
+    top: 8.7%;
+    right: 0%;
+    border-bottom: 1px solid rgb(52, 52, 52);
+    border-top: 1px solid rgb(52, 52, 52);
+}
+
+#suggestion {
+    display: grid;
+    grid-template-columns: repeat(12,auto);
+    grid-template-rows: 100%;
+    padding: 6px;
+    column-gap:10px;
+    height: 70%;
+  }
+.sugg {
+    background-color: rgb(52, 52, 52);
+    border-radius:20px;
+    font-size: 80%;
+    text-align: center;
+    padding: 5px;
+}
+
+#left{
+    background-color: rgb(18, 18, 18);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 0%;
+    height: 6%;
+    width: 3%;
+    box-shadow: -10px 0px 10px rgb(18, 18, 18);;
+}

@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+}
+
+body{
+    width: 100vw;
+    height: 30vh;
+}
+
+#main{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    height: 100%;
+    justify-content: center;
+    column-gap: 5%;
+    padding-top: 1%;
+}
+
+.box{
+    border: 2px solid rgb(216, 216, 216);
+    border-radius: 5%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    height: 100%;
+}
+
+.cent{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+.imge{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+
+}
+
+.big{
+    font-size: 250%;
+}
+
+img{
+    width: 80%;
+    padding-left: 10%;
+}
