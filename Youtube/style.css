@@ -8,6 +8,7 @@ body{
     height: 100vh;
     width: 100vw;
     display: flex;
+    overflow-x: hidden;
 }
 #sidebar{
     background-color: rgb(33, 33, 33);
@@ -48,18 +49,25 @@ body{
     margin-top: 3%;
 }
 #navbar{
+    background-color: rgb(24, 24, 24);
     display: flex;
     width: 83%;
-    height: 5%;
+    height: 8%;
     justify-content: flex-end;
     position: fixed;
-    top: 1.5%;
     right: 0px;
 }
 #nav1{
     display: flex;
     width: 55%;
     padding-right: 14%;
+    align-self: center;
+}
+input{
+    border: none;
+    border: 1px solid rgb(52, 52, 52);;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
 }
 #nav2{
     display: flex;
@@ -72,15 +80,18 @@ body{
 }
 
 #navbar2{
+    background-color: rgb(24, 24, 24);
     display: grid;
     grid-template-columns:100% 3%;
     width: 83%;
     height: 6%;
     position: fixed;
-    top: 8.7%;
+    top: 7.7%;
     right: 0%;
     border-bottom: 1px solid rgb(52, 52, 52);
     border-top: 1px solid rgb(52, 52, 52);
+    padding-bottom: 0.7%;
+    padding-top: 0.7%;
 }
 
 #suggestion {
@@ -106,22 +117,25 @@ body{
     justify-content: center;
     position: fixed;
     right: 0%;
-    height: 6%;
+    top: 10%;
+    height: 5%;
     width: 3%;
     box-shadow: -10px 0px 10px rgb(18, 18, 18);;
 }
 
 #main{
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 26% 26% 26% 26%;
     /* grid-template-rows: 25% 25%; */
-    width: 83%;
+    width: 80%;
     height: 85vh;
-    position: fixed;
-    right: -22px;
-    bottom: -16px;
-    font-size: 90%;
-    padding-top: 5%;
+    position:sticky;
+    top: 97px;
+    left: 247px;
+    /* bottom: -210px; */
+    font-size: 87%;
+    padding-top: 9%;
+    z-index: -1;
 }
 .thumb{
     width: 21%;
@@ -137,9 +151,34 @@ body{
 
 .cname{
     display: grid;
-    grid-template-columns: 52% 50%;
+    grid-template-columns: 100%;
     grid-template-rows: 94%;
     padding-left: 18%;
+}
+
+.cname2{
+    display: grid;
+    grid-template-columns: 70% 10%;
+}
+
+.cname23{
+    display: grid;
+    grid-template-columns: 44% 10%;
+}
+
+.cname24{
+    display: grid;
+    grid-template-columns: 23% 10%;
+}
+
+.cname25{
+    display: grid;
+    grid-template-columns: 43% 10%;
+}
+
+.cname26{
+    display: grid;
+    grid-template-columns: 15% 10%;
 }
 
 .views{
@@ -147,4 +186,58 @@ body{
     grid-template-columns: 31% 4% 36%;
     grid-template-rows: 94%;
     padding-left: 18%;
+}
+
+.thumb4{
+    width: 21%;
+    display: grid;
+    grid-template-columns: 404%;
+    grid-template-rows: 58% 16% 12% 6%;
+}
+
+.cnamea{
+    display: grid;
+    grid-template-columns: 100%
+}
+
+.cname1a{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 94%;
+}
+
+.thumb4a{
+    width: 21%;
+    display: grid;
+    grid-template-columns: 409%;
+    grid-template-rows: 50% 16% 17% 12%;
+}
+
+.mixbox1{
+    background-color: rgba(231, 188, 149,0.8);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 23px;
+}
+
+.mixbox2{
+    background-color: rgb(41, 8, 20,.8);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 23px;
+}
+
+.thumbn{
+    width: 21%;
+    display: grid;
+    grid-template-columns: 404%;
+    grid-template-rows: 56% 17% 6% 6% 6%;
+}
+
+.vtitlen{
+    display: grid;
+    grid-template-columns: 44% 86%;
+    grid-template-rows: 38% 40%;
 }
